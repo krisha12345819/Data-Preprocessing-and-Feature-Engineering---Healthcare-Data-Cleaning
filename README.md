@@ -27,7 +27,7 @@
 | 📓 **Notebook** | Complete data preprocessing pipeline | [Open Notebook](./patient_health_data_cleanser.ipynb) |
 | 📊 **Dataset** | Raw healthcare dataset used in project | [View Dataset](./patient_health_records.csv) |
 | 📄 **Report** | Detailed explanation and analysis | [Read Report](./Data_Cleanser_Project_Report.pdf) |
-| 🖼️ **Visuals** | Charts and visual analysis | [Open Visuals Folder](./plots/) |
+| 🖼️ **Visuals** | Charts and visual analysis | [Open Visuals Folder](./image/) |
 
 </div>
 
