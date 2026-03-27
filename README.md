@@ -78,7 +78,7 @@ This project processes a **patient health dataset** containing demographic and c
 ├── 📊 patient_health_records.csv           ← Raw dataset (500+ records)
 ├── 📄 Data_Cleanser_Project_Report.pdf     ← Project report & analysis
 │
-├── 📁 plots/
+├── 📁 image/
 │   ├── 🖼️  bmi.png                         ← BMI distribution histogram
 │   ├── 🖼️  bmiOutlier.png                  ← BMI outliers boxplot
 │   ├── 🖼️  beforeOutlier.png               ← Boxplot before treatment
@@ -120,35 +120,35 @@ This project processes a **patient health dataset** containing demographic and c
 ### 📈 1. BMI Distribution
 > 💡 Right-skewed histogram with KDE overlay — most patients in the **20–35 BMI range** with extreme outliers reaching up to **~75**.
 
-![BMI Distribution](./plots/bmi.png)
+![BMI Distribution](./image/bmi.png)
 
 ---
 
 ### 📦 2. BMI Outliers — Boxplot
 > 💡 Multiple outliers visible on both the **lower end (<10)** and **upper end (>50)** before any treatment.
 
-![BMI Outliers Boxplot](./plots/bmiOutlier.png)
+![BMI Outliers Boxplot](./image/bmiOutlier.png)
 
 ---
 
 ### ❌ 3. Before Outlier Treatment
 > 💡 Raw BMI data showing the **full spread** of values including extreme outliers on both sides of the distribution.
 
-![Before Outlier Treatment](./plots/beforeOutlier.png)
+![Before Outlier Treatment](./image/beforeOutlier.png)
 
 ---
 
 ### ✅ 4. After Outlier Treatment (IQR Method)
 > 💡 Outliers significantly reduced after IQR capping — distribution **tightened to 15–38**, a clinically meaningful range.
 
-![After Outlier Treatment](./plots/afterOutlier.png)
+![After Outlier Treatment](./image/afterOutlier.png)
 
 ---
 
 ### 🔵 5. Cholesterol vs. Glucose Scatter Plot
 > 💡 Reveals distinct anomalous clusters — **glucose 400–560** and **cholesterol >450** indicating data entry errors or clinical extremes.
 
-![Cholesterol vs Glucose](./plots/zscore.png)
+![Cholesterol vs Glucose](./image/zscore.png)
 
 ---
 
